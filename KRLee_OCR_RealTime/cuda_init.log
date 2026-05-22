@@ -1,0 +1,78 @@
+[12:38:44] preloaded cuda handles=0
+[12:38:44] 엔진 로드 치명적 오류:
+Traceback (most recent call last):
+  File "C:\AI\KRLee\KRLee_OCR_RealTime\KRLee_OCR_RealTime.py", line 427, in load_engine
+    from rapidocr_onnxruntime import RapidOCR
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\__init__.py", line 4, in <module>
+    from .main import RapidOCR
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\main.py", line 12, in <module>
+    from .ch_ppocr_cls import TextClassifier
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\ch_ppocr_cls\__init__.py", line 4, in <module>
+    from .text_cls import TextClassifier
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\ch_ppocr_cls\text_cls.py", line 22, in <module>
+    from rapidocr_onnxruntime.utils import OrtInferSession, read_yaml
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\utils\__init__.py", line 9, in <module>
+    from .infer_engine import OrtInferSession
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\utils\infer_engine.py", line 12, in <module>
+    from onnxruntime import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\__init__.py", line 78, in <module>
+    raise import_capi_exception
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\__init__.py", line 26, in <module>
+    from onnxruntime.capi._pybind_state import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\capi\_pybind_state.py", line 32, in <module>
+    from .onnxruntime_pybind11_state import *  # noqa
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: DLL load failed while importing onnxruntime_pybind11_state: DLL 초기화 루틴을 실행할 수 없습니다.
+
+[12:44:21] preloaded cuda handles=0
+[12:44:22] 엔진 로드 치명적 오류:
+Traceback (most recent call last):
+  File "c:\AI\KRLee\KRLee_OCR_RealTime\KRLee_OCR_RealTime.py", line 427, in load_engine
+    from rapidocr_onnxruntime import RapidOCR
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\__init__.py", line 4, in <module>
+    from .main import RapidOCR
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\main.py", line 12, in <module>
+    from .ch_ppocr_cls import TextClassifier
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\ch_ppocr_cls\__init__.py", line 4, in <module>
+    from .text_cls import TextClassifier
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\ch_ppocr_cls\text_cls.py", line 22, in <module>
+    from rapidocr_onnxruntime.utils import OrtInferSession, read_yaml
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\utils\__init__.py", line 9, in <module>
+    from .infer_engine import OrtInferSession
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\utils\infer_engine.py", line 12, in <module>
+    from onnxruntime import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\__init__.py", line 78, in <module>
+    raise import_capi_exception
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\__init__.py", line 26, in <module>
+    from onnxruntime.capi._pybind_state import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\capi\_pybind_state.py", line 32, in <module>
+    from .onnxruntime_pybind11_state import *  # noqa
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: DLL load failed while importing onnxruntime_pybind11_state: DLL 초기화 루틴을 실행할 수 없습니다.
+
+[15:55:32] preloaded cuda handles=0
+[15:55:32] 엔진 로드 치명적 오류:
+Traceback (most recent call last):
+  File "C:\AI\KRLee\KRLee_OCR_RealTime\KRLee_OCR_RealTime.py", line 427, in load_engine
+    from rapidocr_onnxruntime import RapidOCR
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\__init__.py", line 4, in <module>
+    from .main import RapidOCR
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\main.py", line 12, in <module>
+    from .ch_ppocr_cls import TextClassifier
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\ch_ppocr_cls\__init__.py", line 4, in <module>
+    from .text_cls import TextClassifier
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\ch_ppocr_cls\text_cls.py", line 22, in <module>
+    from rapidocr_onnxruntime.utils import OrtInferSession, read_yaml
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\utils\__init__.py", line 9, in <module>
+    from .infer_engine import OrtInferSession
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\rapidocr_onnxruntime\utils\infer_engine.py", line 12, in <module>
+    from onnxruntime import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\__init__.py", line 78, in <module>
+    raise import_capi_exception
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\__init__.py", line 26, in <module>
+    from onnxruntime.capi._pybind_state import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\onnxruntime\capi\_pybind_state.py", line 32, in <module>
+    from .onnxruntime_pybind11_state import *  # noqa
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: DLL load failed while importing onnxruntime_pybind11_state: DLL 초기화 루틴을 실행할 수 없습니다.
+
